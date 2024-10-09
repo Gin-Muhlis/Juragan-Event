@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.ticket {
+  width: clamp(200px, 100%, 680px);
+  border-radius: 7px;
+  border: 1px solid #0049cc;
+  background-color: #ebf5ff;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.detail-ticket {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  padding: 25px 30px;
+  position: relative;
+}
+
+.name-ticket {
+  font-size: 1em;
+  font-weight: 500;
+  margin-bottom: 30px;
+}
+
+.time-sale-ticket {
+  font-size: 0.9em;
+  color: #0049cc;
+  margin-bottom: 25px;
+}
+
+.line {
+  width: 100%;
+  border: 1px dashed #0049cc;
+  margin-bottom: 30px;
+}
+
+.data-ticket {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.price-ticket {
+  font-size: 1em;
+  font-weight: 500;
+}
+
+.quantity {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.quantity button {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  color: #0049cc;
+  border: 1px solid #0049cc;
+  background-color: #ebf5ff;
+  cursor: pointer;
+}
+
+.quantity-ticket {
+  font-size: 1em;
+  color: #080808;
+  font-weight: 500;
+}
+
+.detail-ticket::before {
+  content: "";
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  background-color: #fff;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateX(-50%);
+  border: 1px solid #0049cc;
+}
+
+.detail-ticket::after {
+  content: "";
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  background-color: #fff;
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateX(50%);
+  border: 1px solid #0049cc;
+}
