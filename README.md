@@ -57,7 +57,7 @@ Pastikan kamu sudah menginstal software berikut:
 
 2. Masuk ke direktori project:
    ```bash 
-   cd EventTickets
+   cd Juragan-Event
 
 3. Install dependencies:
    ```bash 
