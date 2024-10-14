@@ -53,7 +53,7 @@ Pastikan kamu sudah menginstal software berikut:
 
 1. Clone repository:
    ```bash
-   git clone https://github.com/username/Juragan-Event.git
+   git clone https://github.com/Gin-Muhlis/Juragan-Event.git
 
 2. Masuk ke direktori project:
    ```bash 
